@@ -4,6 +4,9 @@ public class Pelicula extends Contenido {
     private int anio;
 
     // Constructor
+    public Pelicula() {
+
+    }
     public Pelicula (String titulo, String genero, String creador, int duracion, int anio) {
 
         super(titulo, genero, creador, duracion);
